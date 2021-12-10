@@ -1,16 +1,28 @@
 <!doctype html>
-<html lang="Default">
+<html lang="fr">
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Entreprise web design Lyon">
-    <meta name="description" content="La chouette agence, une grande agence de web design basée à Lyon ">
+    <meta name="keywords" content="Entreprise, web, design, Lyon, agence, création, site ">
+    <meta name="description" content="La chouette agence, une grande agence de web design basée à Lyon. Cette société est une agence qui aide les entreprises à devenir attractives et visibles sur internet.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+
+    <!-- favicon -->
+    
+    <!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /><![endif]-->
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon_package_v0.16/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon_package_v0.16/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon_package_v0.16/favicon-16x16.png">
+	<link rel="manifest" href="img/favicon_package_v0.16/site.webmanifest">
+	<link rel="mask-icon" href="img/favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+
+    
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/et-line.css">
 	
     
 	
@@ -53,10 +65,10 @@
 			<div class="container bloc-lg">
 				<div class="row">
 					<div class="col-sm-12">
-						<h1 class="text-center hero-bloc-text tc-white">
+						<h1 class="text-center hero-bloc-text tc-orange">
 							Parlons web design !
 						</h1>
-						<p class="text-center mg-lg tc-white tight-width-whitespace">
+						<p class="text-center mg-lg tc-orange tight-width-whitespace">
 							Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
 							Parlez-nous de votre projet en complétant le formulaire ci-dessous.
 						</p>
@@ -71,29 +83,29 @@
 			<div class="container bloc-lg">
 				<div class="row">
 					<div class="col-sm-6">
-						<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+						<form id="form_1">
 							<div class="form-group">
 								<label>
 									Nom
 								</label>
-								<input id="name" class="form-control" required />
+								<input id="name" class="form-control" required="required" />
 							</div>
 							<div class="form-group">
 								<label>
-									Adresse email
+									Adresse e-mail
 								</label>
-								<input id="email" class="form-control" type="email" required />
+								<input id="email" class="form-control" type="email" required="required" />
 							</div>
 							<div class="form-group">
 								<label>
 									Comment nous avez-vous connu ?
 								</label>
-								<input class="form-control" type="email" required id="input_504" />
+								<input class="form-control" type="text" required="required" id="input_504" />
 							</div>
 							<div class="form-group">
 								<label>
 									Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-								</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+								</label><textarea id="message" class="form-control" rows="4" cols="50" required="required"></textarea>
 							</div> 
 							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 								Envoyer
@@ -153,11 +165,11 @@
 
 	</div>
 <!-- Principal conteneur END -->
-	<script src="./js/jquery-2.1.0.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/blocs.min.js"></script>
-	<script src="./js/jqBootstrapValidation.js"></script>
-	<script src="./js/formHandler.js"></script>
+<script src="js/jquery-2.1.0.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/blocs.min.js"></script>
+<script src="js/jqBootstrapValidation.js"></script>
+<script src="js/formHandler.js"></script>
     
 
 </body>
